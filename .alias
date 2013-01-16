@@ -1,0 +1,17 @@
+# Port Forwarding Example
+alias portForwardProjectLevel3='ssh -g -L 7698:MyLevel3HostDomain.something.briancrider.com:7698 MyLevel3HostDomain.something.briancrider.com'
+
+# Formatted directory listing
+alias dir='ls -Flart'
+
+# Recursive grep (VERY HANDY)
+alias allgrep='find . -name "*" |xargs grep '
+
+# Shortcut to tail a file that is frequently tailed
+alias tailDomain='tail -f /tmp/mobileprojects/projectname/nohup.out'
+
+# System stuff
+alias sys='date;uptime;who'
+alias wp='$HOME/bin/whichProj.sh'
+
+
